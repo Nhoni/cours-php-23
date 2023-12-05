@@ -1,6 +1,8 @@
 <article>
     <header>
+        <a href="./article.php?id=<?=$id; ?>">
         <h2><?= $title; ?></h2>
+        </a>
     </header>
     <p>
         <?= substr($content, 0, 100) . '...'; ?>
