@@ -1,6 +1,6 @@
 <article>
     <header>
-        <a href="./article.php?id=<?=$id; ?>">
+        <a href="./article.php?id=<?=$id-1; ?>">
         <h2><?= $title; ?></h2>
         </a>
     </header>
