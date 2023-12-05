@@ -13,11 +13,11 @@
  */
 
 
- $Numb = array(1,2,3,4,5);
- $sum = 0;
-   
- foreach ($Numb as $value) {
-    $sum += $value;
- }
-   
- echo $sum; 
+   $Numb = array(1,2,3,4,5);
+   $sum = 0;
+      
+   foreach ($Numb as $value) {
+      $sum += $value;
+   }
+      
+   echo $sum; 
